@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap'); 
 
-* {
-  font-family: "DM Sans", sans-serif;
-}
+ *{
+  font-family: "DM SANS" sans-serif;
+ }
 
-body {
+ body {
   margin: 0;
   padding: 0;
 }
@@ -26,58 +26,64 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 25px;
+  font-size: 19px;
   text-decoration: none;
-  color: #919dab;
+  color: #919DAB;
 }
 
-/* this aaproach allows multiple buttons to share common features instaed duplicating them */
-.btn-log,
-.btn-sign,
-.p-btn,
-.l-btn {
+.btn-log, .btn-sign, .p-btn, .l-btn, .f-btn, .fx-btn, .fo-btn {
   outline: none;
   box-shadow: none;
   border: 0;
-  background: #25dac5;
+  background: #25DAC5;
   color: #fff;
   padding: 10px 20px;
   border-radius: 50px;
   cursor: pointer;
 }
 
-.btn-sign,
-.l-btn {
-  background: #fff;
-  color: #919dab;
+.f-btn, .fx-btn {
+  background: transparent;
+  color: #25DAC5;
+  padding: 0;
 }
 
-.l-btn {
-  color: #25dac5;
-  font-weight: 700;
+.fx-btn {
+  color: #E93A7D;
+  font-size: 10px;
 }
+
+.btn-sign, .l-btn {
+  background: #fff;
+  color: #919DAB;
+}
+
 
 .btn-log:hover {
   background: #fff;
-  color: #25dac5;
-  border: 1px solid #25dac5;
+  color: #25DAC5;
+  border: 1px solid #25DAC5;
 }
 
-.btn-sign:hover,
-.l-btn:hover {
-  background: #25dac5;
+.btn-sign:hover, .l-btn:hover {
+  background: #25DAC5;
   color: #fff;
   border-radius: 50px;
 }
 
 .l-btn:hover {
-  padding: 10px 90px;
+  padding: 20px 99px;
   margin-top: 10px;
 }
 
 .p-btn {
-  padding: 10px 60px;
+  padding: 20px 60px;
   margin: 50px 0 0 0;
+}
+
+.l-btn {
+  color: #25DAC5;
+  font-weight: 700;
 }
 
 .se-img {
@@ -85,12 +91,15 @@ nav ul li a {
 }
 
 .se-img img {
-  width: 100%;
+  width: 70%;
 }
 
-.logo-img,
-.cta {
+.logo-img, .cta {
   margin: 12px 0 0 0;
+}
+
+.menu{
+  display: none;
 }
 
 /* this is to style the hero section */
@@ -102,43 +111,43 @@ nav ul li a {
 
 .hero h1 {
   font-size: 60px;
-  color: #1e0e62;
-  margin: 0px;
+  color: #1E0E62;
+  margin: 0;
 }
 
 .hero p {
   color: #15143966;
   font-weight: 600;
+  font-size: 29px;
 }
 
 /* this is to style the content area */
 .content {
-  background: url("./assets/Image.png") no-repeat center center / cover;
-  background-color: #2f1893;
+  background: url('./assets/Image.png') no-repeat center center /cover;
+  background-color: #2F1893;
   width: 100%;
   height: 300px;
-  position: relative;
 }
 
-.content-text {
-  position: absolute;
+.content-text{
   text-align: center;
-  top: 60px;
-  left: 330px;
+  padding-top: 50px;
 }
 
-.content-text h2 {
-  color: #fff;
+.content-text h2{
   font-size: 30px;
-  margin: 10px 50px;
+  color: #ffffffa3;
+  font-weight: 700;
 }
 
-.content-text p {
-  color: #ffffff80;
-  font-size: 14px;
-  margin: 10px 170px;
+.content-text p{
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffffa3;
+  line-height: -1px;
 }
 
+/* features styling */
 .features {
   position: relative;
   margin: 30px 0;
@@ -151,18 +160,14 @@ nav ul li a {
   top: 0;
 }
 
-.feature-left h3 {
-  font-size: 30px;
+.feature-left h5, .ecom-top h2 {
+  color: #1E0E62;
+  font-size: 25px;
 }
 
-.feature-left h5 {
-  font-size: 20px;
-}
-
-.feature-left h3,
-.feature-left h5,
-.ecom-top h2 {
-  color: #1e0e62;
+.feature-left h3{
+  color: #1E0E62;
+  font-size: 35px;
 }
 
 .feature-left p {
@@ -179,16 +184,17 @@ nav ul li a {
   margin-right: 10px;
 }
 
+
 .testimonials {
   display: flex;
   justify-content: space-between;
-  background: #1e0e62;
-  padding: 40px 70px 0;
+  background: #1E0E62;
+  padding: 80px 390px 0;
   margin-top: -20px;
 }
 
-.test-left,
-.test-right {
+
+.test-left, .test-right {
   display: flex;
   border: 1px solid #ffffff4b;
   border-radius: 10px;
@@ -196,67 +202,68 @@ nav ul li a {
 }
 
 .test-img {
-  margin: 15px 30px 0 0;
+  margin: 15px 30px 0 0
 }
 
-.test-left p,
-.test-right p {
+.test-left p, .test-right p {
   color: #fff;
 }
 
-.test-left span,
-.test-right span {
+.test-left span, .test-right span {
   color: #ffffff4b;
   font-size: 12px;
 }
 
-/* ecommerce styling */
-.ecommerce {
-  margin-top: 120px;
-}
+/* ecommerece starts here */
 .ecom-top {
   text-align: center;
+  margin-top: 70px;
 }
 
-.ecom-top h2 {
-  font-size: 40px;
+.ecom-top h2{
+  font-size: 60px;
 }
+
 .ecom-top p {
   color: #15143966;
-  font-size: 22px;
+  font-size: 20px;
 }
 
-.text-head small,
-.text-footer small {
+.text-head small, .text-footer small {
   color: #15143966;
 }
 
 .text-head p {
-  color: #1e0e62;
+  color: #1E0E62;
 }
 
 .text-footer {
   display: flex;
-  justify-content: space-between;
+  gap: 290px;
+  /* justify-content: space-between; */
 }
+
 
 .text-footer button {
   border: 0;
   box-shadow: none;
   outline: none;
-  color: #1e0e62;
+  color: #1E0E62;
   cursor: pointer;
 }
 
 .ecom-body {
   display: flex;
-  gap: 95px;
-  margin-left: 150px;
+   gap: 60px; 
+   justify-content: center;
+
 }
 
 .text-body img {
-  width: 100%;
+  width: 400px;
 }
+
+/*  ecommerece ends here */
 
 /* pricing starts here */
 main {
@@ -282,7 +289,6 @@ button {
 
 .check.hidden {
   visibility: hidden;
-  /* display: none; */
 }
 /* SPECIAL CLASSES */
 
@@ -442,8 +448,9 @@ main .pricing_card:nth-child(3) ul li:nth-child(4) {
   color: inherit;
 }
 
-/* pricing ends here */
+/* pricing ends here */
 
+/* contact starts here */
 .container {
   margin-top: 120px;
   font-family: "dm sans", sans-serif;
@@ -540,11 +547,10 @@ button::placeholder {
   justify-content: center;
   align-items: center;
 }
+/* contacts end here */
 
-/* footer begins here --> */
-.footer-section,
-.footer-left,
-.foot-bot {
+/* footer strts here */
+.footer-section, .footer-left, .foot-bot {
   display: flex;
   justify-content: space-between;
 }
@@ -555,18 +561,17 @@ button::placeholder {
 
 .footer-left small {
   display: block;
-  color: #1e0e62;
+  color: #1E0E62;
   font-weight: 400;
   padding: 10px 0;
 }
 
-.foot-bot p {
-  color: #1e0e62;
+..foot-bot p {
+  color: #1E0E62;
   font-weight: 600;
 }
 
-.footer-left p,
-.footer-right p {
+.footer-left p, .footer-right p {
   color: #141414;
   font-weight: 600;
 }
@@ -577,7 +582,7 @@ button::placeholder {
 }
 
 .hr-line {
-  border: 1px solid #ebeaed;
+  border: 1px solid #EBEAED;
 }
 
 .foot-bot {
@@ -593,10 +598,7 @@ button::placeholder {
 }
 
 .fo-btn {
-  background: #482be7;
-  border-radius: 100px;
-  padding: 10px;
-  color: white;
+  background: #482BE7;
 }
 
 footer {
@@ -604,7 +606,242 @@ footer {
 }
 
 .foot-img {
-  margin: 12px000;
+  margin: 12px 0 0 0;
 }
 
-/* footer ends here --> */
+/* footer endss here */
+
+/* media query strts here */
+
+
+@media (max-width: 768px) {
+  header{
+    flex-direction: column;
+    margin: 10px 10px;
+  }
+  nav ul{
+   flex-direction: column;
+  }
+  
+.se-img{
+  width: 9%;
+}
+
+nav,.cta{
+  display: none;
+}
+
+.menu{
+  display: block;
+  font-weight: 900;
+  color: #2F1893;
+  margin-top: 30px;
+}
+
+.mobile_view{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* hero seection */
+ .hero h1{
+font-size: 30px;
+}
+
+
+.hero{
+  text-align: left;
+  margin: 20px;
+}
+
+br{
+  display: none;
+}
+
+.hero p{
+  font-size: 18px;
+}
+
+.p-btn {
+  margin: 10px 0 0 0;
+}
+
+.p-btn,.l-btn{
+  width: 100%;
+  padding: 10px;
+}
+
+/* hero seection */
+
+/* content section */
+
+.content-text{
+  padding-top: 18px;
+}
+
+.content-text h2{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.content-text p{
+  font-size: 20px;
+}
+/* content section */
+
+/* features  */
+
+.feature-left h3{
+  font-size: 25px;
+}
+
+.feature-left h5{
+  font-size: 19px;
+}
+
+.feature-left {
+  padding: 2% 0 0 10%;
+}
+
+.feature-left p{
+  font-size: 18px;
+}
+
+.feature-right {
+  display: none;
+}
+
+.feature-left h3 {
+  font-size: 20px;
+}
+/* features  */
+
+/* testimonials */
+.testimonials {
+  padding: 40px 10px 0;
+  flex-direction: column;
+}
+
+.test-left {
+  margin-bottom: 15px;
+}
+
+/* testimonials */
+
+/* ecommerce */
+.ecom-top h2{
+  font-size: 30px;
+}
+
+.ecom-body {
+  flex-direction: column;
+  margin: 2px;
+  align-items: center;
+}
+
+.text-body img {
+  width: 290px;
+}
+
+.text-footer {
+  gap: 190px;
+}
+
+.ecom-top p {
+  font-size: 18px;
+}
+
+/* ecommerce */
+
+/* pricing */
+
+main .main_section_details h1 {
+  font-size: 32px;
+  width: 95%;
+  margin-bottom: 40px;
+}
+
+main .main_section_details p {
+  width: 81%;
+  padding-left: 39px;
+  line-height: 26px;
+  text-align: center;
+}
+
+
+main .main_pricing {
+  display: block;
+}
+
+.pricing_card {
+  margin-bottom: 35px;
+}
+
+main .pricing_card button,main .pricing_card:nth-child(2) button{
+  width: 100%;
+}
+/* pricing */
+
+/* contact */
+.container {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
+.main h1 {
+  font-size: 32px;
+  line-height: 52px;
+  margin-left: 300px;
+  margin-top: 25px;
+}
+
+.main p {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0;
+  width: 40%;
+  margin-left: 270px;
+}
+
+.main textarea {
+  width: 250px;
+  height: 40px;
+  margin-left: 30%;
+}
+
+.mail input {
+  width: 220px;
+  height: 40px;
+  margin-left: 30%;
+}
+
+
+.main button {
+  width: 300px;
+  height: 30px;
+  margin-inline: 305px;
+  margin-top: 0px;
+
+}
+
+.form {
+  flex-direction: column;
+}
+
+/* contact */
+
+/* footer */
+.footer-section, .footer-left, .foot-bot {
+  flex-direction: column; 
+  gap: 30px;
+}
+
+.footer-right img {
+  width: 5%;
+}
+
+/* footer */
+
+
+}
