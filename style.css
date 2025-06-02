@@ -13,11 +13,13 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 20px 70px;
+  margin-bottom: 89px;
 }
 
 /* this is to style the navigation */
 nav ul {
   display: flex;
+  gap: 34px;
 }
 
 nav ul li {
@@ -73,7 +75,6 @@ nav ul li a {
 
 .l-btn:hover {
   padding: 20px 99px;
-  margin-top: 10px;
 }
 
 .p-btn {
@@ -84,6 +85,8 @@ nav ul li a {
 .l-btn {
   color: #25DAC5;
   font-weight: 700;
+  padding: 20px 90px;
+  margin-top: 30px;
 }
 
 .se-img {
@@ -92,6 +95,7 @@ nav ul li a {
 
 .se-img img {
   width: 70%;
+  /* height: 16px; */
 }
 
 .logo-img, .cta {
@@ -105,20 +109,24 @@ nav ul li a {
 /* this is to style the hero section */
 
 .hero {
-  margin: 20px 70px;
+  /* margin: 20px 70px; */
   text-align: center;
+  width: 100%;
+  height: 100vh;  
 }
 
 .hero h1 {
   font-size: 60px;
   color: #1E0E62;
-  margin: 0;
+  /* margin: 0; */
+  margin-bottom: 38px;
 }
 
 .hero p {
   color: #15143966;
   font-weight: 600;
   font-size: 29px;
+  margin-bottom: 79px;
 }
 
 /* this is to style the content area */
@@ -652,6 +660,7 @@ font-size: 30px;
 .hero{
   text-align: left;
   margin: 20px;
+  height: 50vh;
 }
 
 br{
@@ -671,9 +680,15 @@ br{
   padding: 10px;
 }
 
+.l-btn:hover {
+  height: 10px;
+}
+
 /* hero seection */
 
 /* content section */
+
+
 
 .content-text{
   padding-top: 18px;
