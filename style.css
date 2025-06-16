@@ -106,6 +106,10 @@ nav ul li a {
   display: none;
 }
 
+#icons {
+  display: none;
+}
+
 /* this is to style the hero section */
 
 .hero {
@@ -639,7 +643,7 @@ nav,.cta{
   display: none;
 }
 
-.menu{
+#icons {
   display: block;
   font-weight: 900;
   color: #2F1893;
