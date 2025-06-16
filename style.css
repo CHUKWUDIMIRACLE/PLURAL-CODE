@@ -95,7 +95,6 @@ nav ul li a {
 
 .se-img img {
   width: 70%;
-  /* height: 16px; */
 }
 
 .logo-img, .cta {
@@ -118,7 +117,6 @@ nav ul li a {
 .hero h1 {
   font-size: 60px;
   color: #1E0E62;
-  /* margin: 0; */
   margin-bottom: 38px;
 }
 
@@ -127,6 +125,10 @@ nav ul li a {
   font-weight: 600;
   font-size: 29px;
   margin-bottom: 79px;
+}
+
+#icons {
+  display: none;
 }
 
 /* this is to style the content area */
@@ -639,11 +641,12 @@ nav,.cta{
   display: none;
 }
 
-.menu{
+#icons {
   display: block;
-  font-weight: 900;
   color: #2F1893;
   margin-top: 30px;
+  width: 90px;
+  height: 20px;
 }
 
 .mobile_view{
@@ -857,6 +860,4 @@ main .pricing_card button,main .pricing_card:nth-child(2) button{
 }
 
 /* footer */
-
-
 }
