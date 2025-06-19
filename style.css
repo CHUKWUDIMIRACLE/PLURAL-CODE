@@ -143,7 +143,7 @@ nav ul li a {
   background-color: #2f1893;
   width: 100%;
   height: 300px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 .content-text {
@@ -674,6 +674,8 @@ footer {
   /* hero seection */
   .hero h1 {
     font-size: 30px;
+   margin-left: -16px;
+
   }
 
   .hero {
@@ -689,6 +691,8 @@ footer {
   .hero p {
     font-size: 18px;
     margin-left: -16px;
+    margin-bottom: 39px;
+
   }
 
   .p-btn {
@@ -716,9 +720,14 @@ footer {
 
   /* content section */
 
+  .content {
+    height: 300px;
+    margin-bottom: 9px;
+  }
+
   .content-text {
     padding-top: 18px;
-    padding-block: 30px;
+    padding-block: 1px;
   }
 
   .content-text h2 {
@@ -777,16 +786,17 @@ footer {
 
   .ecom-body {
     flex-direction: column;
-    margin: 2px;
-    align-items: center;
+    margin: 10px;
+    /* width: 100%; */
+    /* align-items: center; */
   }
 
   .text-body img {
-    width: 290px;
+    width: 100%;
   }
 
   .text-footer {
-    gap: 190px;
+    gap: 260px;
   }
 
   .ecom-top p {
@@ -881,6 +891,11 @@ footer {
 
   .footer-right img {
     width: 5%;
+  }
+
+  .fo-btn {
+    width: 150px;
+    height: 60px;
   }
 
   /* footer */
