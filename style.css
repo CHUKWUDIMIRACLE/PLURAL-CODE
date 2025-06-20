@@ -207,7 +207,7 @@ nav ul li a {
   display: flex;
   justify-content: space-between;
   background: #1e0e62;
-  padding: 80px 390px 0;
+  padding: 80px 190px 0;
   margin-top: -20px;
 }
 
@@ -235,6 +235,7 @@ nav ul li a {
 }
 
 /* ecommerece starts here */
+
 .ecom-top {
   text-align: center;
   margin-top: 70px;
@@ -261,7 +262,7 @@ nav ul li a {
 
 .text-footer {
   display: flex;
-  gap: 290px;
+  gap: 330px;
   /* justify-content: space-between; */
 }
 
@@ -280,7 +281,7 @@ nav ul li a {
 }
 
 .text-body img {
-  width: 400px;
+  width: 430px;
 }
 
 /*  ecommerece ends here */
@@ -473,7 +474,6 @@ main .pricing_card:nth-child(3) ul li:nth-child(4) {
 /* contact starts here */
 .container {
   margin-top: 120px;
-  font-family: "dm sans", sans-serif;
   color: #ffffff;
   background-image: url(./assets/background.png);
   background-size: cover;
@@ -689,6 +689,7 @@ footer {
   }
 
   .hero p {
+    width: 100%;
     font-size: 18px;
     margin-left: -16px;
     margin-bottom: 39px;
@@ -721,6 +722,8 @@ footer {
   /* content section */
 
   .content {
+    width: 99.5%;
+    margin-left: 1px;
     height: 300px;
     margin-bottom: 9px;
   }
@@ -769,9 +772,14 @@ footer {
 
   /* testimonials */
   .testimonials {
-    padding: 40px 10px 0;
+    width: 90%;
+    padding: 40px 20px 0;
     flex-direction: column;
   }
+
+  /* svg {
+    display: none;
+  } */
 
   .test-left {
     margin-bottom: 15px;
@@ -787,8 +795,7 @@ footer {
   .ecom-body {
     flex-direction: column;
     margin: 10px;
-    /* width: 100%; */
-    /* align-items: center; */
+    
   }
 
   .text-body img {
@@ -837,14 +844,16 @@ footer {
   /* contact */
   .container {
     height: 80vh;
-    width: 100%;
-    position: relative;
+    width: 99.9%;
+    /* margin-inline: 1px; */
+    /* position: relative; */
   }
 
   .main h1 {
+    width: 290px;
     font-size: 32px;
     line-height: 52px;
-    margin-left: 320px;
+    margin-left: 280px;
     margin-top: 25px;
   }
 
@@ -853,26 +862,27 @@ footer {
     line-height: 22px;
     letter-spacing: 0;
     width: 37%;
-    margin-left: 320px;
+    margin-left: 270px;
   }
-
+ 
   .main textarea {
-    width: 320px;
+    width: 300px;
     height: 40px;
-    margin-left: 33%;
+    margin-left: 270px;
   }
 
   .mail input {
-    width: 320px;
+    margin-top: 30px;
+    width: 310px;
     height: 40px;
-    margin-left: 32%;
+    margin-left: 270px;
   }
 
   .main button {
-    width: 350px;
+    width: 310px;
     height: 40px;
     margin-inline: 305px;
-    margin-top: 0px;
+    margin-top: 0px; 
   }
 
   .form {
